@@ -10,9 +10,9 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
 
     <div className='flex-1 flex flex-col ml-3'>
-      <h4>
+      <h4 className='font-poppins font-semibold text-white text-[18px]/ leading-[23px] mb-1'>
         {title}
-        <p>
+        <p className='font-poppins font-normal text-dimWhite text-[16px]/ leading-[24px] mb-1'>
           {content}
         </p>
       </h4>
@@ -24,7 +24,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () => {
   return (
     <section id='features' className={layout.section}>
-      
+
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           You do the business, <br className='sm:block hidden' /> we’ll handle the money.
