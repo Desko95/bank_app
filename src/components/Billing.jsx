@@ -9,8 +9,8 @@ const Billing = () => {
       <div className={layout.sectionImgReverse}>
         <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
-        <div className="absolute z-[3] left-[-65%] top-0 w-[50%] h-[50%] rounded-full white__gradient" />
-        <div className="absolute z-[0] left-[-65%] bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
+        <div className="absolute z-[3] left-[-55%] top-0 w-[50%] h-[50%] rounded-full white__gradient opacity-30" />
+        <div className="absolute z-[0] left-[-55%] bottom-0 w-[50%] h-[50%] rounded-full pink__gradient opacity-30" />
         
       </div>
       
